@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./weather-scenarios-collage-dbk9c5n23l7e5fgb.jpg');
+    background-size: cover;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.192);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav h1 {
+    font-size: 25px;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+#city {
+    width: 75%;
+    height: 6vh;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#submit {
+    background-color: rgb(135, 40, 224);
+    color: white;
+    margin-left: 10px;
+    width: 20%;
+    height: 6vh;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#submit:hover {
+    border: 2px solid white;
+}
+
+
+
+.display {
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 6px;
+
+}
+
+p {
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+span {
+    font-size: 14px;
+}
+
+#cityName {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+
+.values {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.temprature {
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+}
+
+#temp,
+#wind,
+#humidity {
+    font-size: 40px;
+}
